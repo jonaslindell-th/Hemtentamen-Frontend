@@ -113,8 +113,32 @@ header {
     100% 65.7%
   );
   background: linear-gradient(to bottom left, #8a2387, #e94097, #f27121);
+  background-size: 200% 200%;
+  animation: gradient 5s ease infinite;
   z-index: 1;
   height: 600px;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow: hidden;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+header h1 {
+  color: #fff;
+  font-size: 500%;
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 100px;
+  text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
+}
+
+header h1 span {
+  color: #f27121;
 }
