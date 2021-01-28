@@ -1,12 +1,11 @@
+/* ------- General -------------------------------------------- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: #353535;
-  height: 100vh;
-}
+/* ------- Header --------------------------------------------- */
+
 header {
   clip-path: polygon(
     100% 0,
@@ -120,7 +119,7 @@ header {
   background-size: 200% 200%;
   animation: gradient 5s ease infinite;
   z-index: 0;
-  height: 600px;
+  height: 400px;
   overflow: hidden;
 }
 @keyframes gradient {
@@ -135,18 +134,36 @@ header {
   }
 }
 header h1 {
+  display: inline-block;
   color: #fff;
-  font-size: 500%;
+  font-size: 300%;
   text-align: left;
-  margin-left: 100px;
-  margin-top: 100px;
   text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
 }
-
 header h1 span {
   color: #f27121;
 }
+.main-navigation {
+  list-style: none;
+  text-align: center;
+}
+.main-navigation li {
+  display: inline-block;
+  width: 100px;
+}
+
+a:hover {
+  border: 1px solid #000;
+}
+
+/* ------- Body ----------------------------------------------- */
+
+body {
+  background-color: #353535;
+  height: 100vh;
+}
+
 
 .main {
-  margin-top: 650px;
+  margin-top: 350px; /* Use 350px to start just under the header ends */
 }
