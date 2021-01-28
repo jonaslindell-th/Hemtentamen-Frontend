@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.row {
+  width: 1140px;
+}
 /* ------- Header --------------------------------------------- */
 
 header {
@@ -133,25 +136,32 @@ header {
     background-position: 0% 50%;
   }
 }
+.mainnav {
+margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
 header h1 {
   display: inline-block;
   color: #fff;
-  font-size: 300%;
-  text-align: left;
+  font-size: 400%;
   text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
+  margin-left: 20%;
 }
 header h1 span {
   color: #f27121;
 }
-.main-navigation {
+header ul {
   list-style: none;
-  text-align: center;
+  margin-top: 1px;
+  margin: 35px 40% 0 0;
 }
-.main-navigation li {
+header ul li {
   display: inline-block;
-  width: 100px;
+  width: 50px;
 }
-
 a:hover {
   border: 1px solid #000;
 }
@@ -162,8 +172,6 @@ body {
   background-color: #353535;
   height: 100vh;
 }
-
-
 .main {
   margin-top: 350px; /* Use 350px to start just under the header ends */
 }
