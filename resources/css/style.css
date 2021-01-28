@@ -5,6 +5,7 @@
 }
 body {
   background-color: #353535;
+  height: 100vh;
 }
 header {
   clip-path: polygon(
@@ -112,10 +113,13 @@ header {
     99% 64.75%,
     100% 65.7%
   );
+  position: fixed;
+  width: 100%;
+  top: 0;
   background: linear-gradient(to bottom left, #8a2387, #e94097, #f27121);
   background-size: 200% 200%;
   animation: gradient 5s ease infinite;
-  z-index: 1;
+  z-index: 0;
   height: 600px;
   overflow: hidden;
 }
@@ -141,4 +145,8 @@ header h1 {
 
 header h1 span {
   color: #f27121;
+}
+
+.main {
+  margin-top: 650px;
 }
