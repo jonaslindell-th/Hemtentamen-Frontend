@@ -170,6 +170,7 @@ header h1 {
 header h1 span {
   color: #f27121;
 }
+
 header ul {
   list-style: none;
   margin: 45px 40% 0 0;
@@ -202,3 +203,37 @@ a:hover {
 }
 .main {
   margin-top: 350px; /* Use 350px to start just under the header ends */
+}
+.box {
+  margin: 10px auto;
+  max-width: 1000px;
+  color:#f27121;
+  font-size: 90%;
+  background: #464646;
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.15);
+}
+  .box .img {
+    height: 180px;
+    background: linear-gradient(to top right, #8a2387, #e94097, #f27121);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+    border-radius: 10px;
+  }
+  .box p {
+    color: #c0c0c0;
+    padding: 0 20px;
+    padding-bottom: 30px;
+    margin-top: 15px;
+    text-align: justify;
+  }
+ .box h2 {
+   text-align: center;
+   margin-top: 20px;
+ }
+ .box:hover {
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+transform: scale(1.025);
+ }
