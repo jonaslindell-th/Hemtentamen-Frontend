@@ -137,7 +137,7 @@ header {
   background: linear-gradient(to bottom left, #8a2387, #e94097, #f27121);
   background-size: 200% 200%;
   animation: gradient 5s ease infinite;
-  z-index: 0;
+  z-index: 1;
   height: 400px;
   overflow: hidden;
 }
@@ -235,5 +235,5 @@ a:hover {
  }
  .box:hover {
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
-transform: scale(1.025);
+  transform: scale(1.025);
  }
