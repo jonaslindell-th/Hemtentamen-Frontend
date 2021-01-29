@@ -290,17 +290,6 @@ transform: rotateY(180deg);
     animation: gradient 5s ease infinite;
 }
 
-.pp {
-    display: block;
-    width: 128px;
-    height: 128px;
-    margin: 0 auto 30px;
-    border-radius: 50%;
-    background-color: #FFF;
-    border: 5px solid #FFF;
-    object-fit: cover;
-}
-
 .card__header h2 {
     color: #FFF;
     font-size: 32px;
@@ -325,6 +314,6 @@ transform: rotateY(180deg);
     font-size: 18px;
     line-height: 1.5;
 }
-.a {
-    /* margin-right: 70px; */
+.card-margin {
+    margin-right: 70px;
 }
