@@ -274,11 +274,21 @@ transform: rotateY(180deg);
 .card__face--front h2 {
     color: #FFF;
     font-size: 28px;
+    /* LEGACY REASONS
+    margin-right: 5%;
+    margin-left: 5%; */
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .card__face--back {
     background-color: var(--light);
     transform: rotateY(180deg);
+}
+
+.card__face--back p {
+    overflow-y: auto;
+    height: 350px;
 }
 
 .card__content {
