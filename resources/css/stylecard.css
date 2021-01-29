@@ -127,7 +127,7 @@ background: linear-gradient(to bottom left, #8a2387, #e94097, #f27121);
 background-size: 200% 200%;
 animation: gradient 5s ease infinite;
 z-index: 1;
-height: 300px;
+height: 160px;
 overflow: hidden;
 }
 @keyframes gradient {
