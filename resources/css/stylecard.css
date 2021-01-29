@@ -12,7 +12,7 @@ padding: 0;
 box-sizing: border-box;
 }
 
-/* .separator {
+.separator {
     margin-top: 60px;
     text-align: center;
     font-size: 200%;
@@ -29,41 +29,9 @@ box-sizing: border-box;
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: -300px;
-  } */
+  }
 
-  .separator {
-    margin-top: 60px;
-    letter-spacing: 1%;
-    text-transform: uppercase;
-    text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
-    font-size: 200%;
-    line-height: 0.5;
-    text-align: center;
-    margin-bottom: -300px;
-  }
-  .separator span {
-    display: inline-block;
-    position: relative;  
-  }
-  .separator span:before,
-  .separator span:after {
-    content: "";
-    margin-top: 5px;
-    position: absolute;
-    height: 5px;
-    border-bottom: 1px solid #e94097;
-    border-top: 1px solid #e94097;
-    top: 0;
-    width: 600px;
-  }
-  .separator span:before {
-    right: 100%;
-    margin-right: 15px;
-  }
-  .separator span:after {
-    left: 100%;
-    margin-left: 15px;
-  }
+  
 /* ------- Header --------------------------------------------- */
 
 
