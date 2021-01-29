@@ -311,6 +311,7 @@ transform: rotateY(180deg);
     color: var(--dark);
     font-size: 18px;
     line-height: 1.5;
+    font-weight: 400;
 }
 .card__margin {
     margin-right: 70px;
