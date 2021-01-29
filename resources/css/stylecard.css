@@ -144,6 +144,7 @@ overflow: hidden;
 
 .row {
     max-width: 1140px;
+    margin: 0 auto;
 }
 
 .mainnav {
@@ -192,19 +193,16 @@ min-height: 100vh;
 
 
 .main {
-margin-top: 450px;
-display: inline-block;
-/* align-items: center; */
-/* text-align: center; */
-
+margin-top: 50px;
 }
+
 
 /* ------- Card ----------------------------------------------- */
 
 .card {
-    margin: 100px auto 0;
-    width: 400px;
-    height: 600px;
+    margin: 100px auto;
+    width: 400px; /* 400 */
+    height: 600px; /* 600 */
     perspective: 1000px;
     transform: scale(0.7) 
 }
@@ -313,4 +311,7 @@ transform: rotateY(180deg);
     color: var(--dark);
     font-size: 18px;
     line-height: 1.5;
+}
+.a {
+    /* margin-right: 70px; */
 }
