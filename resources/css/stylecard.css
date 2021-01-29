@@ -318,7 +318,11 @@ transform: rotateY(180deg);
 
 .new__row {
     margin-top: -350px;
+}
 
+/* ------- New Section ----------------------------------------------- */
+.new-section {
+    background-color: #3a3a3a;
 }
 
 /* ------- Footer ----------------------------------------------- */
