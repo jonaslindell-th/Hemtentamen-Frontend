@@ -1,152 +1,306 @@
+:root {
+    --primary: #8a2387;
+    --secondary: #e94097;
+    --thirdary: #f27121;
+    --dark: #212121;
+    --light: #F3F3F3;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    background-color: #353535;
-    height: 100vh;
-  }
-  header {
-    clip-path: polygon(
-      100% 0,
-      0 0,
-      0 77.5%,
-      1% 77.4%,
-      2% 77.1%,
-      3% 76.6%,
-      4% 75.9%,
-      5% 75.05%,
-      6% 74.05%,
-      7% 72.95%,
-      8% 71.75%,
-      9% 70.55%,
-      10% 69.3%,
-      11% 68.05%,
-      12% 66.9%,
-      13% 65.8%,
-      14% 64.8%,
-      15% 64%,
-      16% 63.35%,
-      17% 62.85%,
-      18% 62.6%,
-      19% 62.5%,
-      20% 62.65%,
-      21% 63%,
-      22% 63.5%,
-      23% 64.2%,
-      24% 65.1%,
-      25% 66.1%,
-      26% 67.2%,
-      27% 68.4%,
-      28% 69.65%,
-      29% 70.9%,
-      30% 72.15%,
-      31% 73.3%,
-      32% 74.35%,
-      33% 75.3%,
-      34% 76.1%,
-      35% 76.75%,
-      36% 77.2%,
-      37% 77.45%,
-      38% 77.5%,
-      39% 77.3%,
-      40% 76.95%,
-      41% 76.4%,
-      42% 75.65%,
-      43% 74.75%,
-      44% 73.75%,
-      45% 72.6%,
-      46% 71.4%,
-      47% 70.15%,
-      48% 68.9%,
-      49% 67.7%,
-      50% 66.55%,
-      51% 65.5%,
-      52% 64.55%,
-      53% 63.75%,
-      54% 63.15%,
-      55% 62.75%,
-      56% 62.55%,
-      57% 62.5%,
-      58% 62.7%,
-      59% 63.1%,
-      60% 63.7%,
-      61% 64.45%,
-      62% 65.4%,
-      63% 66.45%,
-      64% 67.6%,
-      65% 68.8%,
-      66% 70.05%,
-      67% 71.3%,
-      68% 72.5%,
-      69% 73.6%,
-      70% 74.65%,
-      71% 75.55%,
-      72% 76.35%,
-      73% 76.9%,
-      74% 77.3%,
-      75% 77.5%,
-      76% 77.45%,
-      77% 77.25%,
-      78% 76.8%,
-      79% 76.2%,
-      80% 75.4%,
-      81% 74.45%,
-      82% 73.4%,
-      83% 72.25%,
-      84% 71.05%,
-      85% 69.8%,
-      86% 68.55%,
-      87% 67.35%,
-      88% 66.2%,
-      89% 65.2%,
-      90% 64.3%,
-      91% 63.55%,
-      92% 63%,
-      93% 62.65%,
-      94% 62.5%,
-      95% 62.55%,
-      96% 62.8%,
-      97% 63.3%,
-      98% 63.9%,
-      99% 64.75%,
-      100% 65.7%
-    );
-    position: fixed;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* ------- Header --------------------------------------------- */
+
+
+header {
+clip-path: polygon(
+    100% 0,
+    0 0,
+    0 77.5%,
+    1% 77.4%,
+    2% 77.1%,
+    3% 76.6%,
+    4% 75.9%,
+    5% 75.05%,
+    6% 74.05%,
+    7% 72.95%,
+    8% 71.75%,
+    9% 70.55%,
+    10% 69.3%,
+    11% 68.05%,
+    12% 66.9%,
+    13% 65.8%,
+    14% 64.8%,
+    15% 64%,
+    16% 63.35%,
+    17% 62.85%,
+    18% 62.6%,
+    19% 62.5%,
+    20% 62.65%,
+    21% 63%,
+    22% 63.5%,
+    23% 64.2%,
+    24% 65.1%,
+    25% 66.1%,
+    26% 67.2%,
+    27% 68.4%,
+    28% 69.65%,
+    29% 70.9%,
+    30% 72.15%,
+    31% 73.3%,
+    32% 74.35%,
+    33% 75.3%,
+    34% 76.1%,
+    35% 76.75%,
+    36% 77.2%,
+    37% 77.45%,
+    38% 77.5%,
+    39% 77.3%,
+    40% 76.95%,
+    41% 76.4%,
+    42% 75.65%,
+    43% 74.75%,
+    44% 73.75%,
+    45% 72.6%,
+    46% 71.4%,
+    47% 70.15%,
+    48% 68.9%,
+    49% 67.7%,
+    50% 66.55%,
+    51% 65.5%,
+    52% 64.55%,
+    53% 63.75%,
+    54% 63.15%,
+    55% 62.75%,
+    56% 62.55%,
+    57% 62.5%,
+    58% 62.7%,
+    59% 63.1%,
+    60% 63.7%,
+    61% 64.45%,
+    62% 65.4%,
+    63% 66.45%,
+    64% 67.6%,
+    65% 68.8%,
+    66% 70.05%,
+    67% 71.3%,
+    68% 72.5%,
+    69% 73.6%,
+    70% 74.65%,
+    71% 75.55%,
+    72% 76.35%,
+    73% 76.9%,
+    74% 77.3%,
+    75% 77.5%,
+    76% 77.45%,
+    77% 77.25%,
+    78% 76.8%,
+    79% 76.2%,
+    80% 75.4%,
+    81% 74.45%,
+    82% 73.4%,
+    83% 72.25%,
+    84% 71.05%,
+    85% 69.8%,
+    86% 68.55%,
+    87% 67.35%,
+    88% 66.2%,
+    89% 65.2%,
+    90% 64.3%,
+    91% 63.55%,
+    92% 63%,
+    93% 62.65%,
+    94% 62.5%,
+    95% 62.55%,
+    96% 62.8%,
+    97% 63.3%,
+    98% 63.9%,
+    99% 64.75%,
+    100% 65.7%
+);
+position: fixed;
+width: 100%;
+top: 0;
+background: linear-gradient(to bottom left, #8a2387, #e94097, #f27121);
+background-size: 200% 200%;
+animation: gradient 5s ease infinite;
+z-index: 0;
+height: 300px;
+overflow: hidden;
+}
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+
+.mainnav {
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+color: #fff;
+font-size: 500%;
+text-align: left;
+margin-left: 100px;
+margin-top: 100px;
+text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
+}
+
+header h1 span {
+color: #f27121;
+}
+header ul {
+list-style: none;
+margin-top: 1px;
+margin: 35px 40% 0 0;
+}
+header ul li {
+display: inline-block;
+width: 50px;
+}
+a:hover {
+border: 1px solid #000;
+}
+
+/* ------- Body ----------------------------------------------- */
+
+body {
+background-color: #353535;
+height: 100vh;
+font-family: 'Roboto', sans-serif;
+width: 100%;
+min-height: 100vh;
+}
+
+
+.main {
+margin-top: 650px;
+}
+
+.card {
+    margin: 100px auto 0;
+    width: 400px;
+    height: 600px;
+    perspective: 1000px;
+    transform: scale(1.025) 
+}
+
+.card__inner {
     width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+}
+
+.card__inner.is-flipped {
+transform: rotateY(180deg);
+}
+
+.card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; 
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0px 3px 12px 3px rgba(187, 186, 186, 0.2);
+}
+
+.card__face--front {
+    background: linear-gradient(to bottom left, var(--primary), var(--secondary), var(--thirdary));
+    background-size: 200% 200%;
+    /* background-image: linear-gradient(to bottom right, var(--primary), var(--secondary), var(--thirdary)); */
+    animation: gradient 5s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__face--front h2 {
+    color: #FFF;
+    font-size: 28px;
+}
+
+.card__face--back {
+    background-color: var(--light);
+    transform: rotateY(180deg);
+}
+
+.card__content {
+    width: 100%;
+    height: 100%;   
+}
+
+.card__header {
+    position: relative;
+    padding: 30px 30px 40px;
+}
+
+.card__header:after {
+    content: '';
+    display: block;
+    position: absolute;
     top: 0;
-    background: linear-gradient(to bottom left, #8a2387, #e94097, #f27121);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 0 0 50% 0;
+    /* background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%); */
+    background: linear-gradient(to bottom left, var(--primary), var(--secondary), var(--thirdary));
     background-size: 200% 200%;
     animation: gradient 5s ease infinite;
-    z-index: 0;
-    height: 600px;
-    overflow: hidden;
-  }
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-  header h1 {
-    color: #fff;
-    font-size: 500%;
-    text-align: left;
-    margin-left: 100px;
-    margin-top: 100px;
-    text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
-  }
-  
-  header h1 span {
-    color: #f27121;
-  }
-  
-  .main {
-    margin-top: 650px;
-  }
+}
+
+.pp {
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    background-color: #FFF;
+    border: 5px solid #FFF;
+    object-fit: cover;
+}
+
+.card__header h2 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card__body {
+    padding: 30px;
+}
+
+.card__body h3 {
+    color: var(--dark);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card__body p {
+    color: var(--dark);
+    font-size: 18px;
+    line-height: 1.5;
+}
