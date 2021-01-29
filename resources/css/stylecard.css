@@ -126,8 +126,8 @@ top: 0;
 background: linear-gradient(to bottom left, #8a2387, #e94097, #f27121);
 background-size: 200% 200%;
 animation: gradient 5s ease infinite;
-z-index: 0;
-height: 300px;
+z-index: 1;
+height: 200px;
 overflow: hidden;
 }
 @keyframes gradient {
@@ -140,6 +140,10 @@ overflow: hidden;
 100% {
     background-position: 0% 50%;
 }
+}
+
+.row {
+    max-width: 1140px;
 }
 
 .mainnav {
@@ -188,15 +192,21 @@ min-height: 100vh;
 
 
 .main {
-margin-top: 650px;
+margin-top: 450px;
+display: inline-block;
+/* align-items: center; */
+/* text-align: center; */
+
 }
+
+/* ------- Card ----------------------------------------------- */
 
 .card {
     margin: 100px auto 0;
     width: 400px;
     height: 600px;
     perspective: 1000px;
-    transform: scale(1.025) 
+    transform: scale(0.7) 
 }
 
 .card__inner {
