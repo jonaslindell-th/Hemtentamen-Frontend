@@ -13,10 +13,12 @@ box-sizing: border-box;
 }
 
 .separator {
-    margin-top: 40px;
+    margin-top: 60px;
     text-align: center;
     font-size: 200%;
     letter-spacing: 1%;
+    text-transform: uppercase;
+    text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
 }
 .separator:after {
     display: block;
@@ -25,7 +27,7 @@ box-sizing: border-box;
     content: " ";
     width: 50%;
     margin: 0 auto;
-    margin-top: 36px;
+    margin-top: 15px;
     margin-bottom: -300px;
   }
 /* ------- Header --------------------------------------------- */
@@ -341,10 +343,6 @@ transform: rotateY(180deg);
 /* ------- New Section ----------------------------------------------- */
 .new-section {
     background-color: #3a3a3a;
-}
-
-.section-computer-science {
-
 }
 
 /* ------- Footer ----------------------------------------------- */
