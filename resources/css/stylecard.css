@@ -312,8 +312,13 @@ transform: rotateY(180deg);
     font-size: 18px;
     line-height: 1.5;
 }
-.card-margin {
+.card__margin {
     margin-right: 70px;
+}
+
+.new__row {
+    margin-top: -350px;
+
 }
 
 /* ------- Footer ----------------------------------------------- */
