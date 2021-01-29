@@ -11,6 +11,23 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
+.separator {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 200%;
+    letter-spacing: 1%;
+}
+.separator:after {
+    display: block;
+    height: 2px;
+    background-color: #e94097;
+    content: " ";
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: -300px;
+  }
 /* ------- Header --------------------------------------------- */
 
 
@@ -123,7 +140,7 @@ clip-path: polygon(
 position: fixed;
 width: 100%;
 top: 0;
-background: linear-gradient(to bottom left, #8a2387, #e94097, #f27121);
+background: linear-gradient(to bottom left, var(--primary), var(--secondary), var(--thirdary));
 background-size: 200% 200%;
 animation: gradient 5s ease infinite;
 z-index: 1;
@@ -211,7 +228,7 @@ body {
 /* ------- Card ----------------------------------------------- */
 
 .card {
-    margin: 100px auto;
+    margin: 100px 0;
     width: 400px; /* 400 */
     height: 600px; /* 600 */
     perspective: 1000px;
@@ -324,6 +341,10 @@ transform: rotateY(180deg);
 /* ------- New Section ----------------------------------------------- */
 .new-section {
     background-color: #3a3a3a;
+}
+
+.section-computer-science {
+
 }
 
 /* ------- Footer ----------------------------------------------- */
