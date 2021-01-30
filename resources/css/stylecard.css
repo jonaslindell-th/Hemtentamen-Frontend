@@ -146,7 +146,7 @@ width: 100%;
 top: 0;
 background: linear-gradient(to bottom left, var(--primary), var(--secondary), var(--thirdary));
 background-size: 200% 200%;
-animation: gradient 5s ease infinite;
+animation: gradient 10s ease infinite;
 z-index: 1;
 height: 160px;
 overflow: hidden;
@@ -271,7 +271,7 @@ transform: rotateY(180deg);
     background: linear-gradient(to bottom left, var(--primary), var(--secondary), var(--thirdary));
     background-size: 200% 200%;
     /* background-image: linear-gradient(to bottom right, var(--primary), var(--secondary), var(--thirdary)); */
-    animation: gradient 5s ease infinite;
+    animation: gradient 10s ease infinite;
     display: flex;
     align-items: center;
     justify-content: center;
