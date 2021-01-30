@@ -23,7 +23,7 @@ box-sizing: border-box;
 .separator:after {
     display: block;
     height: 2px;
-    background-color: #e94097;
+    background-color: var(--secondary);
     content: " ";
     width: 50%;
     margin: 0 auto;
@@ -186,7 +186,7 @@ overflow: hidden;
       text-transform: uppercase;
     }
     header h1 span {
-      color: #f27121;
+      color: var(--thirdary);
     }
     
     header ul {
@@ -392,14 +392,15 @@ footer {
   }
   .a:last-of-type { margin-right: 0; }
   footer h3 {
-    color: #e94097;
+    color: var(--secondary);
     text-align: center;
     margin-top: 10px;
     text-transform: uppercase;
   }
   footer p {
     font-size: 80%;
-    color: #f27121;
+    /* color: var(--thirdary); */
+    color: #c0c0c0; 
   }
 
 
