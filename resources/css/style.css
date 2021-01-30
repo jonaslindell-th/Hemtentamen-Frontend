@@ -13,7 +13,6 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   height: 100vh;
-  margin-top: 350px;
 }
 h1 {
   font-weight: 500;
@@ -170,7 +169,6 @@ header h1 {
 header h1 span {
   color: #f27121;
 }
-
 header ul {
   list-style: none;
   margin: 45px 40% 0 0;
@@ -181,7 +179,6 @@ header ul li {
 }
 a {
   text-shadow: 0 1px 1px rgb(0 0 0 / 50%);
-
   font-size: 70%;
   font-weight: 500;
   color: #fff;
@@ -200,10 +197,25 @@ a:hover {
 /* ------- Body ----------------------------------------------- */
 
 .main {
-  margin-top: 350px; /* Use 350px to start just under the header ends */
+  margin-top: 250px;
+}
+.main h2 {
+  color:#fff;
+  text-shadow: 0 3px 3px rgb(0 0 0 / 50%);
+
+}
+
+.separator:after {
+  display: block;
+  height: 1px;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 220, from(rgb(255, 255, 255)), to(#7e7e7e));
+  content: " ";
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 .box {
-  margin: 10px auto;
+  margin: 20px auto;
   max-width: 1000px;
   color:#f27121;
   font-size: 90%;
@@ -222,6 +234,7 @@ a:hover {
   }
   .box p {
     color: #c0c0c0;
+    font-size: 100%;
     padding: 0 20px;
     padding-bottom: 30px;
     margin-top: 15px;
