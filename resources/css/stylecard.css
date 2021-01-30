@@ -294,7 +294,7 @@ transform: rotateY(180deg);
 
 .card__face--back p {
     overflow-y: auto;
-    height: 350px;
+    height: 355px;
 }
 
 .card__content {
