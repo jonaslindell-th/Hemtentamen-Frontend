@@ -322,7 +322,7 @@ transform: rotateY(180deg);
     /* background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%); */
     background: linear-gradient(to bottom left, var(--primary), var(--secondary), var(--thirdary));
     background-size: 200% 200%;
-    animation: gradient 5s ease infinite;
+    animation: gradient 10s ease infinite;
 }
 
 .card__header h2 {
