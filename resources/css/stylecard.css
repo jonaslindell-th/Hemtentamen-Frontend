@@ -277,9 +277,10 @@ transform: rotateY(180deg);
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
-.card__face--front h2 {
+.card__face--front h2 { 
     color: #FFF;
     font-size: 28px;
     /* LEGACY REASONS
