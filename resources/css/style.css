@@ -24,6 +24,10 @@ h1 {
 }
 /* ------- Header --------------------------------------------- */
 
+#header {
+  transition: ease 0.4s;
+}
+
 header {
   clip-path: polygon(
     100% 0,
@@ -228,7 +232,7 @@ a:hover {
   height: 180px;
   background: linear-gradient(to top right, #8a2387, #e94097, #f27121);
   background-size: 200% 200%;
-  animation: gradient 5s ease infinite;
+  animation: gradient 10s ease infinite;
   border-radius: 10px;
 }
 .box p {
