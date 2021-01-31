@@ -536,10 +536,18 @@ footer p {
 }
 
 .ion-social-instagram:hover {
-  color: #517fa4;
+  color: #8a3ab9;
 }
 
 .link-col {
   margin-bottom: 25px;
   margin-top: -20px;
 }
+
+.patric-card {
+  margin-left: 70px;
+}
+
+.jonas-card {
+  margin-left: -70px;
+} 
