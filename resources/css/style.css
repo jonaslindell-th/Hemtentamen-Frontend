@@ -24,6 +24,14 @@ h1 {
 }
 /* ------- Header --------------------------------------------- */
 
+.drop-shadow {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  filter: drop-shadow(0 0 0.75rem #000);
+}
+
 #header {
   transition: ease 0.4s;
 }
@@ -134,13 +142,14 @@ header {
     99% 64.75%,
     100% 65.7%
   );
+  /*
   position: fixed;
+  z-index: 1;
   width: 100%;
-  top: 0;
+  top: 0; */
   background: linear-gradient(to bottom left, #8a2387, #e94097, #f27121);
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
-  z-index: 1;
   height: 300px;
   overflow: hidden;
 }
@@ -475,3 +484,4 @@ footer p {
   line-height: 1.5;
   font-weight: 400;
 }
+

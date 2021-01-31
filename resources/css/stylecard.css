@@ -35,7 +35,13 @@ box-sizing: border-box;
 
   
 /* ------- Header --------------------------------------------- */
-
+.drop-shadow {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  filter: drop-shadow(0 0 0.75rem #000);
+}
 
 header {
 clip-path: polygon(
@@ -143,13 +149,15 @@ clip-path: polygon(
     99% 64.75%,
     100% 65.7%
 );
+/*
 position: fixed;
 width: 100%;
 top: 0;
+z-index: 1;
+*/
 background: linear-gradient(to bottom left, var(--primary), var(--secondary), var(--thirdary));
 background-size: 200% 200%;
 animation: gradient 10s ease infinite;
-z-index: 1;
 height: 160px;
 overflow: hidden;
 }
