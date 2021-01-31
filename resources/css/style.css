@@ -286,14 +286,14 @@ footer .copyright {
   margin-right: 0;
 }
 footer h3 {
-  color: #e94097;
+  color: rgba(255, 255, 255, 0.507);
   text-align: center;
   margin-top: 10px;
   text-transform: uppercase;
 }
 footer p {
   font-size: 80%;
-  color: #f27121;
+  color: #c0c0c07a;
 }
 
 .intro {

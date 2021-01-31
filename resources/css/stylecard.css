@@ -395,15 +395,14 @@ footer {
   }
   .a:last-of-type { margin-right: 0; }
   footer h3 {
-    color: var(--secondary);
+    color: rgba(255, 255, 255, 0.507);
     text-align: center;
     margin-top: 10px;
     text-transform: uppercase;
   }
   footer p {
     font-size: 80%;
-    /* color: var(--thirdary); */
-    color: #c0c0c0; 
+    color: #c0c0c07a;
   }
 
 
