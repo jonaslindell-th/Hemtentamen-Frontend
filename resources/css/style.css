@@ -485,3 +485,61 @@ footer p {
   font-weight: 400;
 }
 
+/* --------------------- */
+/*     SOCIAL LINKS      */
+/* --------------------- */
+
+.card__header ul {
+  list-style: none;
+}
+
+.social-link:link,
+.social-link:visited {
+  text-decoration: none;
+  border: 0;
+  color: #888;
+  transition: color 0.2s;
+  margin-left: -30px;
+}
+
+.social-link:hover,
+.social-link:active {
+  color: #ddd;
+}
+
+.social-link:link,
+.social-link:visited {
+  font-size: 160%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-linkedin-outline,
+.ion-social-instagram {
+  transition: color 0.2s;
+}
+
+.ion-social-facebook {
+  margin-left: 9%;
+}
+
+.ion-social-facebook:hover {
+  color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+  color: #00aced;
+}
+
+.ion-social-linkedin-outline:hover {
+  color: #0E76A8;
+}
+
+.ion-social-instagram:hover {
+  color: #517fa4;
+}
+
+.link-col {
+  margin-bottom: 25px;
+  margin-top: -20px;
+}
