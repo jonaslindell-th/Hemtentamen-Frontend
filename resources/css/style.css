@@ -147,6 +147,7 @@ header {
   z-index: 1;
   width: 100%;
   top: 0; */
+  background-color: var(--secondary);
   background: linear-gradient(to bottom left, #8a2387, #e94097, #f27121);
   background-size: 200% 200%;
   animation: gradient 10s ease infinite;
