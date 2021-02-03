@@ -1,12 +1,177 @@
 [
   {
-    "question": "",
-    "category": "",
-    "answer": ""
+    "question": "Vad är ett ramverk?",
+    "category": "Framework VS. Library",
+    "answer": "Ett ramverk är förberett stöd för utveckling av program, it-system eller webbsidor. Enkelt uttryckt en kombination av färdigskriven kod och regler för struktur för program. Exempel på ramverk är .NET."
   },
   {
-    "question": "",
-    "category": "",
-    "answer": ""
+    "question": "Vad är ett bibliotek?",
+    "category": "Framework VS. Library",
+    "answer": "Ett bibliotek är en samling metoder / funktioner för att till exempel upprätta hålla DRY (don´t repeat yourself) regeln. Används samma kod vid fler ställen i din kod så skapar man en metod av den koden för att kalla på metoden istället för att upprepa koden vid flertal ställen. En samling information som underlättar programutveck­ling. Ett bibliotek kan omfatta färdigskriven programkod, dokumentation, klasser och värden."
+  },
+  {
+    "question": "Vad är skillnaden mellan ramverk och bibliotek?",
+    "category": "Framework VS. Library",
+    "answer": "Vid användning av ett bibliotek följer är jag som programmerare i kontroll, men vid användning av ett framework förhåller man sig till ramverkets regler."
+  },
+  {
+    "question": "Ge exempel på frontend ramverk",
+    "category": "Framework VS. Library",
+    "answer": "React, Vue.js, Angular.js"
+  },
+  {
+    "question": "Ge exempel på backend ramverk",
+    "category": "Framework VS. Library",
+    "answer": "Django, ASP.NET Core"
+  },
+  {
+    "question": "Ge exempel på frontend bibliotek",
+    "category": "Framework VS. Library",
+    "answer": "Algolia Places, anime.js, bideo.js, chart.js"
+  },
+  {
+    "question": "Ge exempel på backend bibliotek",
+    "category": "Framework VS. Library",
+    "answer": "Next.js, node.js, gatsby, express"
+  },
+  {
+    "question": "Vad är webben?",
+    "category": "The World Wide Web",
+    "answer": "Det är ett informations system där dokument och andra resurser är identifierade och hämtas genom URL:s"
+  },
+  {
+    "question": "Vad är Client?",
+    "category": "The World Wide Web",
+    "answer": "En client är ett program som lägger över arbetsuppgifter på ett annat program; en server."
+  },
+  {
+    "question": "Vad betyder client side?",
+    "category": "The World Wide Web",
+    "answer": "Det är en handling som äger rum på användarens enhet (klienten)."
+  },
+  {
+    "question": "Vad betyder server?",
+    "category": "The World Wide Web",
+    "answer": "Man kan beskriva en server som en mjukvara eller hårdvara som har uppgiften att lagra filer, system och information som andra enheter har tillgång till genom servern."
+  },
+  {
+    "question": "Vad betyder server side?",
+    "category": "The World Wide Web",
+    "answer": " Det är motsatsen till client side, alltså en handling som äger rum på servern."
+  },
+  {
+    "question": "Vad är HTTP (Hypertext Transfer Protocol)?",
+    "category": "The World Wide Web",
+    "answer": "Det är kommunikationen mellan klienter och webservrar och det sker genom HTTP requests och HTTP responses. En användare skickar via webläsaren en HTTP request (client-side) som sedan besvaras genom en webserver (server-side)."
+  },
+  {
+    "question": "Vad är HTTPS (Hypertext Transfer Protocol Secure)?",
+    "category": "The World Wide Web",
+    "answer": " Det är en förlängning av http som är huvud protokollet som används vid överföring av data mellan webbläsare och hemsidor. HTTPS är krypterat för att säkerställa högre säkerhet vid överföring av data."
+  },
+  {
+    "question": "Vad är HTTP/1.1 och HTTP/2 och vad är skillnaden mellan dessa?",
+    "category": "The World Wide Web",
+    "answer": "HTTP/1.1 stödjer “request pipelining” vilket låter klienten skicka flera förfrågningar samtidigt till webbservern. HTTP/2 tillåter en webbserver att svara med mer data än vad en klient har bett om."
+  },
+  {
+    "question": "Vad är TCP/IP och UDP, vad är skillnaden mellan dessa?",
+    "category": "The World Wide Web",
+    "answer": "TCP/IP är en arkitektur för datakommunikation över nätverk. TCP/IP består av fyra lager, Länk, Internet, Transport och Applikation. UDP är ett överföringsprotkoll som ligger i TCP lagret för transport. UDP är enklare än TCP och har inga funktioner för att rätta till överföringsfel."
+  },
+  {
+    "question": "Vad är DNS (Domain Name System)?",
+    "category": "The World Wide Web",
+    "answer": "DNS är en hierarkisk databas som översätter ip-adressen till domännamn."
+  },
+  {
+    "question": "Vad är URI (Uniform Resource Identifier)?",
+    "category": "The World Wide Web",
+    "answer": "Det är en rad med tecken som hjälper till att identifiera en resurs på webben, antingen genom att använda platsen, namnet eller båda."
+  },
+  {
+    "question": "Vad är URL (Uniform Resource Locater)?",
+    "category": "The World Wide Web",
+    "answer": "Det unik adress som visar vägen till en webbsida,"
+  },
+  {
+    "question": "Vad är URN (Uniform Resource Name)?",
+    "category": "The World Wide Web",
+    "answer": "Det är en unik identifikation som beskriver ett digitalt objekt/dokument eller resurs som är oföränderlig och globalt unik."
+  },
+  {
+    "question": "Vad är skillnaden på URL, URI, URN?",
+    "category": "The World Wide Web",
+    "answer": "URI - Identifierar en resurs på nätet antingen genom en URL eller URN, eller båda. URL - Visar vägen till objektet. URN - Beskriver objektet"
+  },
+  {
+    "question": "Vad är polling?",
+    "category": "The World Wide Web",
+    "answer": "Polling kontrollerar genom en slags avfrågning om en enhet är ansluten och fungerar, eller kvaliteten på överföringen för att meddela att enheten kan börja sända eller kontrollera om det finns ny information."
+  },
+  {
+    "question": "Vad är Web Sockets?",
+    "category": "The World Wide Web",
+    "answer": "Websockets är en teknik för snabb tvåvägskommunikation mellan webbläsare och webbserver. Kommunikationen sker duplex, det vill säga att meddelanden kan skickas i båda riktningarna samtidigt."
+  },
+  {
+    "question": "Vad är XML?",
+    "category": "The World Wide Web",
+    "answer": "Det är en specifikation för att specialdesigna så kallade markup språk som HTML. Till skillnad från just HTML så kan XML även tagga en webbsidas innehåll utöver utseende."
+  },
+  {
+    "question": "Vad är JSON?",
+    "category": "The World Wide Web",
+    "answer": "Det är ett kompakt textbaserat format som används för att utbyta data. JSON är utformat för att enkelt fungera med JavaScript, men kan idag användas av mer eller mindre alla programspråk för att skapa och läsa dessa filer."
+  },
+  {
+    "question": "Vad är WebAssembly?",
+    "category": "The World Wide Web",
+    "answer": "Det är en relativt ny teknologi skapad för att köra applikationer skrivna i andra språk än JavaScript direkt i webbläsaren. Tanken med detta är att det ska vara så nära “native” prestanda som bara möjligt samt att ha korta laddtider."
+  },
+  {
+    "question": "Vad är FTP/FTPS/SFTP och vad är skillnaden mellan dessa?",
+    "category": "The World Wide Web",
+    "answer": "FTP - File Transfer Protocol - Ett vanligt protokoll för att hämta och skicka filer från en dator till en annan över internet. FTPS - Är en utökning av FTP där överföringarna kräver lösenord eller certifikat för att få tillgång till filerna. SFTP - Använder sig utav SSH-2 men skulle kunna använda sig av andra protokoll som exempelvis TLS. Summan: Det är olika nivåer av kryptering."
+  },
+  {
+    "question": "Vad är SMTP/POP3/IMAP och vad används dessa till?",
+    "category": "The World Wide Web",
+    "answer": "SMTP - Simple Mail Transfer Protocol - ett protokoll som ofta används för sändning av e-post från avsändaren till internetoperatören som därefter sänder det till den slutgiltliga mottagaren. Post Office Protocol, version 3 - Ett protokoll för mottagning av e-post- POP3 sköter om mottagning och lagring av abonnentens e-post på internet operatörens server tills abonnenten hämtar posten till sin dator. Internet Message Access Protocol - ett av de två vanliga protokollen för mottagning av e-post. IMAP ser till att abonnentens inkommande e-post tas emot och lagras på internet operatörens server."
+  },
+  {
+    "question": "Vad är SSH?",
+    "category": "The World Wide Web",
+    "answer": "Secure Shell - Ett protokoll för inloggning på distans med säker identifiering. SSH kan bland annat användas för fjärrstyrning av datorer."
+  },
+  {
+    "question": "Vad är HTML/XHTML/HTML5 och vad är skillnaden mellan dessa?",
+    "category": "HTML",
+    "answer": "HTML, Hypertext markup language är ett standardspråk för att skapa hemsidor, HTML beskriver webbsidans struktur i form av taggar. XHTML är en förlängning av HTML, XHTML använder sig av XML vilket möjliggör maskinläsbara beskrivningar av den information som finns på sidan. HTML5 är en omarbetning av HTML, HTML5 är bland annat utformad för att klara rörliga bilder och ljud utan tilläggsprogram som Flash."
+  },
+  {
+    "question": "Vad är HTML5 Canvas?",
+    "category": "HTML",
+    "answer": "Canvas är ett nytt element i HTML5, som tillhandahåller programmeringsgränssnitt för att generera och återge bilder, diagram och animeringar dynamiskt. Canvas är ett sätt att koda bilder på webbsidor i HTML5. Bildelement som ska publiceras på det sättet markeras med taggen canvas. Det är i grunden ett enkelt format, men det kan användas för rörliga bilder (ani­me­ringar), och kan med rätt programmering användas för mer avancerade effekter."
+  },
+  {
+    "question": "Vad är CSS / CSS3 och vad är skillnaden mellan dessa?",
+    "category": "CSS",
+    "answer": "CSS står för Cascading Style Sheet, vilket betyder att det är en stilmall, även kallat stilmall språk. Detta räknas precis som HTML INTE som ett programmeringsspråk. CSS är däremot beroende av ett markup språk som HTML för att kunna påverka presentationen av innehållet. CSS3 är en senare version av CSS som tillåter responsiv design och efterlängtade funktioner som exempelvis rundade hörn, övertoningar, övergångar och animationer."
+  },
+  {
+    "question": "Vad är ett CSS-ramverk? Ge exempel på ett sådant.",
+    "category": "CSS",
+    "answer": "Ett CSS framework kan ses som ett bibliotek för att göra det enkklare och ge ett mer standardiserat sätt att skapa webdesign. De flesta framework innehåller olika moduler och verktyg som exempelvis grids vilket underlättar responsiv design, men även ikoner, fonts, knappar och formulär."
+  },
+  {
+    "question": "Vad är SASS?",
+    "category": "CSS",
+    "answer": "Det är en förlängning av CSS, och sägs vara ett av de mest mogna förlägningar som finns idag. Det är fullt kompatibelt med css så man kan använda alla libraries som vanligt. En för mig stor grej med SASS är införandet av variabler för att hålla koden DRY (don´t repeat yourself). SASS är baserat på JavaScript."
+  },
+  {
+    "question": "Vad är LESS?",
+    "category": "CSS",
+    "answer": "Det är i princip samma sak som SASS med det är baserat på Ruby istället för JavaScript. Less har färre funktioner än SASS."
   }
 ]
