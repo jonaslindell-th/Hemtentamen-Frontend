@@ -1,77 +1,12 @@
 [
   {
-    "question": "Vad är JavaScript?",
-    "category": "JavaScript",
-    "answer": "Det är ett skriptspråk, men som till skillnad från HTML och CSS klassas som ett programmeringsspråk. Ett skriptspråk specialiserar sig på att utföra uppgifter inom redan befintliga miljöer. JavaScript är tillsammans med HTML och CSS en av webbens tre grundläggande byggstenar där HTML står för innehållet, CSS för designen och JavaScript för funktionaliteten."
+    "question": "",
+    "category": "",
+    "answer": ""
   },
   {
-    "question": "Vad är ECMA?",
-    "category": "JavaScript",
-    "answer": "Det är en ideell organisation som utvecklar standarder inom hårdvara, kommunikation och programmeringsspråk."
-  },
-  {
-    "question": "Vad är ECMAScript?",
-    "category": "JavaScript",
-    "answer": "Det är en ideell organisation som utvecklar standarder inom hårdvara, kommunikation och programmeringsspråk."
-  },
-  {
-    "question": "Vad är TypeScript?",
-    "category": "JavaScript",
-    "answer": "TypeScript är ett “superset” av JavaScript; ett program skrivet i JavaScript är redan giltig TypeScript-kod. Förutom sin vanliga kod kan man dessutom lägga till typ-annoteringar, och deklarera variabler som “string”, “number”, etc."
-  },
-  {
-    "question": "Vad är AngularJS/Angular och vad är skillnaden mellan dessa två?",
-    "category": "JavaScript Web Development Frameworks",
-    "answer": "Angular är ett stort och populärt ramverk för att bygga små till stora webbapplikationer. Angular är TypeScript baserat och AngularJS är JavaScript baserat."
-  },
-  {
-    "question": "Vad är Vue?",
-    "category": "JavaScript Web Development Frameworks",
-    "answer": "Vue är ett JavaScript baserat ramverk för att skapa användargränssnitt och single-page applikationer."
-  },
-  {
-    "question": "Vad är Ember?",
-    "category": "JavaScript Web Development Frameworks",
-    "answer": "Ember.js är ett JavaScript ramverk och de anses främst vara ett ramverk för webben men de är även möjligt att skapa desktop och mobilappar. Ember har stort fokus på att använda best practice för att utveckla skalbara applikationer."
-  },
-  {
-    "question": "Vad är Node.js?",
-    "category": "JavaScript Web Development Frameworks",
-    "answer": "Node.js är en open source-plattform där man kör Javascript på servernivå. Node.js använder Chrome V8 Javascript-motor som översätter Javascript till maskinkod."
-  },
-  {
-    "question": "Vad är jQuery?",
-    "category": "JavaScript Web Development Libraries",
-    "answer": "jQuery är en av världens mest populära JavaScript-bibliotek. Det är designat bl.a. för att göra det enklare att anropa och modifiera element på hemsidan (divar, bilder, länkar etc), hantera händelser (t.ex. musklick), CSS-modifikationer samt skapa effekter och animationer."
-  },
-  {
-    "question": "Vad är React?",
-    "category": "JavaScript Web Development Libraries",
-    "answer": "React är ett effektivt och flexibelt Javascript bibliotek som används för att bygga användargränssnitt. Enkelt förklarat är ett Javascript bibliotek ett typ av bibliotek som har färdiga funktioner man använder sig utav när man skriver Javascript."
-  },
-  {
-    "question": "Vad är w3.JS?",
-    "category": "JavaScript Web Development Librariess",
-    "answer": "Det är ett JavaScript library som är framtaget för att simplicera webbutveckling."
-  },
-  {
-    "question": "Vad är chart.js?",
-    "category": "JavaScript Web Development Libraries",
-    "answer": "Det är ett JavaScript library som används för datavisualisering genom diverse diagram med hjälp av Canvas element."
-  },
-  {
-    "question": "Vad är flask/Django? (phyton)",
-    "category": "Non-JavaScript Web Development Frameworks",
-    "answer": "Båda är ramverk för att utveckla webbaserade applikationer samt hemsidor med Python. Flask är extra lämpligt för att utveckla API:er och Django är ett fullstack ramverk för webbapplikationer utan API-stöd. Flask ses som ett microframework om än ett kompetent sådant."
-  },
-  {
-    "question": "Vad är Blazor? (c#)",
-    "category": "Non-JavaScript Web Development Frameworks",
-    "answer": "Blazor är en del av det populära webbutvecklingsverktyget ASP.NET och låter utvecklare skapa interaktiva web UI´s med C# och HTML."
-  },
-  {
-    "question": "Vad är Ruby on rails? (Ruby)",
-    "category": "Non-JavaScript Web Development Frameworks",
-    "answer": "Ruby on Rails (RoR) är ett framework för att utveckla databas-stödjande webbapplikationer och använder sig av det objekt orienterade skriptspråket Ruby. RoR hjälper även utvecklaren att följa designmönstret MVC (Model-View-Controller)."
+    "question": "",
+    "category": "",
+    "answer": ""
   }
 ]
