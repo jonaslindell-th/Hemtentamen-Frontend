@@ -8,5 +8,185 @@
     "question": "Vad är hårdvara?",
     "category": "Computer science",
     "answer": "Hårdvara är datakomponenter som CPU, skärm, moderkort grafikkort och det är hårdvaran som står för själva utförandet av mjukvarans instruktioner."
+  },
+  {
+    "question": "Vad är en enhet?",
+    "category": "Computer science",
+    "answer": "En enhet/device är sammansättningen av hårdvara, exempelvis en dator eller mobiltelefon."
+  },
+  {
+    "question": "Vad är en plattform?",
+    "category": "Computer science",
+    "answer": "En plattform är miljön som mjukvaran körs i, exempelvis operativsystem eller webbläsare."
+  },
+  {
+    "question": "Vad är ett operativsystem?",
+    "category": "Computer science",
+    "answer": "Ett operativsystem är system mjukvara som hanterar datorns hårdvara och mjukvaruresurser och förmedlar bastjänster för program. Exempel på operativsystem är Windows och iOS."
+  },
+  {
+    "question": "Vad är en webbläsare?",
+    "category": "Computer science",
+    "answer": "En mjukvaruapplikation som skickar förfrågningar till en webbserver och hämtar relaterad information som sedan visas upp för användaren.  Exempel på en webbläsare är Google-chrome, Mozilla firefox, Safari."
+  },
+  {
+    "question": "Vad är ett programspråk?",
+    "category": "Program Languages",
+    "answer": "Ett formellt språk som består av mänskligt läsbara instruktioner som översätts till maskinkod för att implementera algoritmer."
+  },
+  {
+    "question": "Vilka typer av programspråk finns det?",
+    "category": "Program Languages",
+    "answer": "Markupspråk, deklarativa språk, script-språk, interpreterat språk, kompilerat språk, procedurella, funktionella, objekt-orienterade samt logiska språk"
+  },
+  {
+    "question": "Vad ett markup språk?",
+    "category": "Program Languages",
+    "answer": "Det är ett icke funktionellt språk, det har som uppgift att berätta vart olika element ska ligga, samt vilken typ av element det ska vara. Ett exempel på ett markupspråk är HTML"
+  },
+  {
+    "question": "Vad är ett deklarativt språk?",
+    "category": "Program Languages",
+    "answer": "Det är ett språk som talar om hur något ska tolkas, exempelvis hur webbläsaren ska tolka hur en tag ska presenteras. Ett exempel på ett deklarativt språk är CSS"
+  },
+  {
+    "question": "Vad är ett scriptspråk?",
+    "category": "Program Languages",
+    "answer": "Det är ett språk som innehåller en rad utföranden som ska tolkas under runtime som utför simpla uppgifter som att flytta en fil eller komprimera en fil till ett zip-arkiv. Ett exempel på scriptspråk är JavaScript."
+  },
+  {
+    "question": "Vad är ett interpreterat språk?",
+    "category": "Program Languages",
+    "answer": "Det är ett språk som inte direkt kompileras till maskinkod utan som läses in och exekveras av ett annat program. Ett exempel på ett interpreterat språk är JavaScript."
+  },
+  {
+    "question": "Vad är ett kompilerat språk?",
+    "category": "Program Languages",
+    "answer": "Ett kompilerat språk kompilerar all källkod till maskinkod vid körning. Ett exempel på ett kompilerat språk är C#."
+  },
+  {
+    "question": "Vad är kompilering?",
+    "category": "Program Languages",
+    "answer": "Kompilering omvandlar all källkod till maskinkod direkt vid körning. Det tar längre tid att analysera vid uppstart, men exekverar snabbare under körning."
+  },
+  {
+    "question": "Vad är JIT compilation?",
+    "category": "Program Languages",
+    "answer": "Det är en blandning av interpretering och kompilering, den översätter stycken av kod till maskinkod under körning. Detta är någonting som kan underlätta vid debugging då det är lätt att se exakt vilket stycke kod som misslyckades."
+  },
+  {
+    "question": "Vad är transpilation?",
+    "category": "Program Languages",
+    "answer": "Transpilation är ett verktyg som läser in en källkod från ett programspråk och översätter de till ett annat så länge de opererar på samma nivå av abstraktion. Medan en kompilator översätter en högre nivå av programspråk som källkod till en lägre nivå som maskinkod."
+  },
+  {
+    "question": "Vad är interpretation?",
+    "category": "Program Languages",
+    "answer": "Det översätter från källkod till maskinkod ett uttryck åt gången. Snabbare att starta men långsammare att exekvera uttryck under körning."
+  },
+  {
+    "question": "Vad är backend?",
+    "category": "All The Ends",
+    "answer": "Det är den delen som exempelvis kontaktar och hämtar information från en databas, skapar/sparar filer eller gör beräkningar och kan kortfattat summeras som att de sköter serversidan av en applikation eller hemsida."
+  },
+  {
+    "question": "Vad är frontend?",
+    "category": "All The Ends",
+    "answer": "Frontend är vad användaren ser och interagerar med på en webbsida eller applikation, eller displayen i en bil, på ett kylskåp, tvättmaskin etc."
+  },
+  {
+    "question": "Vad är skillnaden mellan frontend och backend?",
+    "category": "All The Ends",
+    "answer": "Frontend syftar på användargränssnittet medan backend syftar på servern, applikationen, databaasen där anvädarens förfrågan utförs, lagras eller hämtas."
+  },
+  {
+    "question": "Vad är ett API?",
+    "category": "All The Ends",
+    "answer": "Ett API är ett datorgränssnitt som fungerar som en mellanhand för olika mjukvaror och låter dom interagera med varandra."
+  },
+  {
+    "question": "Vad är ett web API?",
+    "category": "All The Ends",
+    "answer": "Ett web API är nätverksbaserat och används för att skicka förfrågningar till externa webbservrar som i sin tur returnerar relevant data för förfrågan."
+  },
+  {
+    "question": "Vad är SOAP?",
+    "category": "All The Ends",
+    "answer": "Simple Object Acess Protocoll, är ett protokoll som gör att olika program kan kommunicera med varandra på webben och förbiser vilket operativsystem samt programspråk ett visst program körs på. SOAP är baserat på XML och är ett gemensamt samarbete mellan några olika stora företag som bland annat Microsoft och IBM."
+  },
+  {
+    "question": "Vad är REST?",
+    "category": "All The Ends",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är REST?",
+    "category": "Tooling and plugin",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är REST?",
+    "category": "Tooling and plugin",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är REST?",
+    "category": "Tooling and plugin",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är REST?",
+    "category": "Tooling and plugin",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är REST?",
+    "category": "Tooling and plugin",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är REST?",
+    "category": "Tooling and plugin",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är REST?",
+    "category": "Tooling and plugin",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är REST?",
+    "category": "Tooling and plugin",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är REST?",
+    "category": "Tooling and plugin",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är REST?",
+    "category": "Tooling and plugin",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är REST?",
+    "category": "Tooling and plugin",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är HCI?",
+    "category": "HCI",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad är UI / UX samt skillnaderna mellan dessa?",
+    "category": "HCI",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
+  },
+  {
+    "question": "Vad menas med användarvänlighet, användbarhet, tillgänglighet och vad är skillnaderna mellan dessa?",
+    "category": "HCI",
+    "answer": "Representational State Transfer är ett sätt att programmera webbplatser så att de kan tillhandahålla tjänster åt andra webbplatser. Webbplatserna förses med standardiserade gränssnitt på ett sätt som påminner om hur man gör i objektorienterad programmering."
   }
 ]
